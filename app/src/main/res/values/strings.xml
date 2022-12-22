@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BabyBuy</string>
+    <string name="image_splash" />
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="textview">TextView</string>
+    <string name="description">BabyBuy is an application to help expecting parents and friends to list out item needed before and after pregnancy</string>
+    <string name="join_now">Join Now</string>
+    <string name="login_prompt">Already a member? Sign In</string>
+    <string name="sign_prompt">Hi there!</string>
+    <string name="create_account">Add account</string>
+    <string name="forgot_password">Forget Password</string>
+    <string name="sign_prompt2">Lets get Started</string>
+    <!-- Strings used for fragments for navigation -->
+
+</resources>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/frame"
+    android:padding="16dp"
+    tools:context=".WelcomeScreen">
+
+    <!--    <io.alterac.blurkit.BlurLayout-->
+    <!--        android:id="@+id/blurLayout"-->
+    <!--        android:layout_width="150dp"-->
+    <!--        android:layout_height="150dp"-->
+    <!--         />-->
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="307dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp"
+        android:background="#BCE0EC"
+        android:text="@string/join_now" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="137dp"
+        android:gravity="center"
+        android:text="@string/description"
+        android:textColor="#433D3D"
+        android:textSize="16sp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/home_title"
+        android:layout_width="235dp"
+        android:layout_height="54dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="216dp"
+        android:gravity="center"
+        android:text="Be Prepared !"
+        android:textColor="@color/design_default_color_on_secondary"
+        android:textFontWeight="500"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="31dp"
+        android:text="@string/login_prompt"
+        android:textColor="@color/purple_700" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:layout_width="354dp"
+        android:layout_height="453dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/welcomepage"
+        app:layout_constraintStart_toEndOf="parent"
+        app:shapeAppearanceOverlay="@style/roundedCorners"
+        tools:ignore="ImageContrastCheck"
+        tools:layout_editor_absoluteY="91dp" />
+
+
+</RelativeLayout>
