@@ -1,19 +1,9 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Theme.UoSBabyBuy" parent="Theme.AppCompat.Light.DarkActionBar">
-        <!-- Primary brand color. -->
-<!--        <item name="colorPrimary">@color/purple_500</item>-->
-<!--        <item name="colorPrimaryDark">@color/purple_700</item>-->
-<!--        <item name="colorAccent">@color/teal_200</item>-->
-        <!-- Customize your theme here. -->
+    <style name="Theme.UoSBabyBuy" parent="Theme.MaterialComponents.DayNight.NoActionBar">
     </style>
 
     <style name="SplashScreenTheme.UoSBabyBuy" parent="Theme.AppCompat.Light.NoActionBar">
-        <!-- Primary brand color. -->
-<!--        <item name="colorPrimary">@color/purple_500</item>-->
-<!--        <item name="colorPrimaryDark">@color/purple_700</item>-->
-<!--        <item name="colorAccent">@color/teal_200</item>-->
-        <!-- Customize your theme here. -->
     </style>
 
     <style name="Theme.UoSBabyBuy.NoActionBar">
@@ -30,6 +20,8 @@
         <item name="cornerFamily">cut</item>
         <item name="cornerSize">12dp</item>
     </style>
+
+
 
     <style name="Rounded" parent="ShapeAppearance.MaterialComponents.SmallComponent">
         <item name="cornerFamily">rounded</item>

@@ -7,8 +7,8 @@
     <color name="text_black">#000000</color>
     <color name="borderColor">#000000</color>
     <color name="light_red">#000000</color>
-
-        <color name="colorPrimary">#FF0945EE</color>
-        <color name="colorPrimaryDark">#FF094EE</color>
-        <color name="colorAccent">#FF945EE</color>
+    <color name="colorPrimary">#FF0945EE</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="orange">#FF5722</color>
+<!--    <color name="colorAccent">#FF945EE</color>-->
 </resources>
