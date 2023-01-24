@@ -6,16 +6,25 @@ import android.os.Bundle
 import android.view.ViewGroup
 import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
-import kotlinx.android.synthetic.main.activity_welcome_screen.*
+import com.example.babybuy.databinding.ActivityWelcomeScreenBinding
+
 
 class WelcomeScreen : AppCompatActivity() {
+    private lateinit var binding:ActivityWelcomeScreenBinding
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_welcome_screen)
+        binding = ActivityWelcomeScreenBinding.inflate(layoutInflater)
+        setContentView(binding.root)
 
-        var buttonClick = button
+        var buttonClick = binding.button
         buttonClick.setOnClickListener {
             val intent = Intent(this, SignUp::class.java)
+            startActivity(intent)
+        }
+
+        var signinbutton = binding.textView
+        signinbutton.setOnClickListener {
+            val intent = Intent(this, Login::class.java)
             startActivity(intent)
         }
     }
