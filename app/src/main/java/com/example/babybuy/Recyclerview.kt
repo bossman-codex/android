@@ -1,6 +1,9 @@
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
+import com.bumptech.glide.Glide
+import com.bumptech.glide.request.RequestOptions
+import com.example.babybuy.R
 import com.example.babybuy.databinding.CardLayoutBinding
 
 
@@ -33,6 +36,15 @@ class Recyclerview(
             with(languageList[position]){
                 binding.itemTitle.text = this.Title
                 binding.itemDetail.text = this.Details
+
+                val requestOptions = RequestOptions()
+                    .placeholder(R.drawable.ic_launcher_background)
+                    .error(R.drawable.ic_launcher_background)
+
+                Glide.with(itemView.context)
+                    .applyDefaultRequestOptions(requestOptions)
+                    .load(this.Image)
+                    .into(binding.imageView)
             }
         }
     }
@@ -45,5 +57,10 @@ class Recyclerview(
 
 class Language(
     val Title : String ="",
-    val Details : String =""
+    val Details : String ="",
+    var Image : String = "",
+    var description : String = ""
 )
+
+
+
